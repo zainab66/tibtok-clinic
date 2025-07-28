@@ -41,6 +41,8 @@ app.use('/get-audio', express.static(path.join(__dirname, 'audio_uploads')));
 
 
 
+// Export for Vercel
+module.exports = app;
 
 // Start server
 app.listen(port, () => {
