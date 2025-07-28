@@ -1,0 +1,22 @@
+/* Base RTL styles */
+[dir="rtl"] {
+  direction: rtl;
+  text-align: right;
+}
+
+/* Bootstrap RTL overrides */
+[dir="rtl"] .me-1 {
+  margin-left: 0.25rem !important;
+  margin-right: 0 !important;
+}
+
+[dir="rtl"] .ms-auto {
+  margin-right: auto !important;
+  margin-left: 0 !important;
+}
+
+[dir="rtl"] .dropdown-menu {
+  text-align: right;
+  left: auto !important;
+  right: 0;
+}

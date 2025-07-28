@@ -1,0 +1,33 @@
+# Node modules
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Build output
+dist/
+build/
+
+# Environment files
+.env
+client/.env
+server/.env
+
+# Log files
+*.log
+npm-debug.log*
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE config
+.vscode/
+.idea/
+
+# Audio / uploads
+audio_uploads/
+uploads/
+
+# Database (if local)
+*.sqlite
+*.sql
