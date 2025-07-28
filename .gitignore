@@ -31,3 +31,4 @@ uploads/
 # Database (if local)
 *.sqlite
 *.sql
+.vercel
