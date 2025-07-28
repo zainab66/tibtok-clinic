@@ -44,10 +44,3 @@ app.use('/get-audio', express.static(path.join(__dirname, 'audio_uploads')));
 // Export for Vercel
 module.exports = app;
 
-// Start server
-// Only start server locally
-if (require.main === module) {
-  app.listen(port, () => {
-    console.log(`Server running on http://localhost:${port}`);
-  });
-}
