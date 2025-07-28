@@ -45,6 +45,9 @@ app.use('/get-audio', express.static(path.join(__dirname, 'audio_uploads')));
 module.exports = app;
 
 // Start server
-app.listen(port, () => {
-  console.log(`Server has started on port ${port}`);
-});
+// Only start server locally
+if (require.main === module) {
+  app.listen(port, () => {
+    console.log(`Server running on http://localhost:${port}`);
+  });
+}
